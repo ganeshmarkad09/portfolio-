@@ -278,7 +278,8 @@
             </div>
             <div class="col-md-6">
                 <h2 class="section-title">Get In Touch</h2>
-                <form class="contact-form" onsubmit="handleFormSubmit(event)">
+                <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                     <input type="hidden" name="access_key" value="9f7463da-481f-4b54-aa6c-2fca57f89a67">
                     <div class="form-group">
                         <input type="text" id="name" name="name" placeholder="Your Name" required />
                     </div>
